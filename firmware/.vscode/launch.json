@@ -12,35 +12,35 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/luiz-villa/code/Core/.pio/build/USB/firmware.elf",
+            "executable": "c:/Users/Fede/Documents/Facultad/5to/Proyecto/micro-inverter/firmware/.pio/build/USB/firmware.elf",
             "projectEnvName": "USB",
-            "toolchainBinDir": "/home/luiz-villa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "toolchainBinDir": "C:/Users/Fede/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "/home/luiz-villa/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd",
+            "svdPath": "C:/Users/Fede/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
-                "task": "Pre-Debug (USB)"
+                "task": "Pre-Debug"
             }
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/luiz-villa/code/Core/.pio/build/USB/firmware.elf",
+            "executable": "c:/Users/Fede/Documents/Facultad/5to/Proyecto/micro-inverter/firmware/.pio/build/USB/firmware.elf",
             "projectEnvName": "USB",
-            "toolchainBinDir": "/home/luiz-villa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "toolchainBinDir": "C:/Users/Fede/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "/home/luiz-villa/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd"
+            "svdPath": "C:/Users/Fede/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/luiz-villa/code/Core/.pio/build/USB/firmware.elf",
+            "executable": "c:/Users/Fede/Documents/Facultad/5to/Proyecto/micro-inverter/firmware/.pio/build/USB/firmware.elf",
             "projectEnvName": "USB",
-            "toolchainBinDir": "/home/luiz-villa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "toolchainBinDir": "C:/Users/Fede/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
-            "svdPath": "/home/luiz-villa/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd",
+            "svdPath": "C:/Users/Fede/.platformio/platforms/ststm32/misc/svd/STM32G474xx.svd",
             "loadMode": "manual"
         }
     ]

@@ -7,5 +7,6 @@
     ".gitignore": false,
     "docs": false,
     ".github": false
-  }
+  },
+  "cmake.sourceDirectory": "C:/Users/Fede/Documents/Facultad/5to/Proyecto final/micro-inverter/firmware/zephyr"
 }

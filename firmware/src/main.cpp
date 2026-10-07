@@ -253,7 +253,7 @@ void setup_routine()
     scope.start();
 
     // PR initialization
-    inverter.init(local_mode, Udc, Vgrid_amplitude_ref, w0, Ts);
+    inverter.init(local_mode, BIPOLAR, Udc, Vgrid_amplitude_ref, w0, Ts);
 
     sogi_v.init(500.0, Ts);
     sogi_i.init(500.0, Ts);
